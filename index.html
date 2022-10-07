@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Dog Factz</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="images/favicon.ico">
+
+	<!-- Twitter Boot Strap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- Link to Font Awesome for Icons-->
+	<script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+	<section id="title">
+		<div class="container-fluid">
+			<!-- Nav Bar -->
+
+			<nav class="navbar navbar-expand-lg navbar-dark">
+
+
+				<a class="navbar-brand" id="appName" href="index.html">Dog Factz</a>
+
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+				
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+
+							<a class="nav-link" href="quiz.html">Quiz</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="videos.html">Wellness</a>
+
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#footer">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<!-- Title -->
+			<div class="row">
+				<div class="col-lg-6">
+					<h1 class="big-heading">Find out more about your favorite four legged friend.</h1>
+
+					<button type="button" id="tooScary" class="btn btn-dark btn-lg">Too Scared</button>
+					<button type="button" id="halloween" class="btn btn-dark btn-lg" onclick="spookSound();">Theme</button>
+					
+					<br>
+					<i id="bone" class="fas fa-bone fa-2x"></i>
+					
+				</div>
+				<div id="title-div" class="col-lg-6">
+					<img id='dog-image' class="title-image" src="images/dog_img1.jpeg" alt="">
+					<h2 id="title-fact">"There are more dog owners than cat owners." - Me</h2>
+					<h2 id="spookyFact">Dogs are more alert than we think...</h2>
+
+
+					<button id="title-btn" onclick="newFact()" class="
+					btn btn-light">More Factz</button>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- Features -->
+
+	<section id="features">
+		<div class="row">
+			<div class="feature-box col-lg-4 col-md-12 col-sm-12">
+				<i class="fas fa-check-circle fa-4x"></i>
+				<h3 class="feature-title">Easy to use.</h3>
+				<p class="feature-p">So easy to use, even your dog could do it.</p>
+			</div>
+
+			<div class="feature-box col-lg-4 col-md-12 col-sm-12">
+				<i class="fas fa-bullseye fa-4x"></i>
+				<h3 class="feature-title">Interesting Factz</h3>
+				<p class="feature-p">We have all the factz, the greatest facts.</p>
+			</div>
+
+			<div class="feature-box col-lg-4 col-md-12 col-sm-12">
+				<i class="fas fa-heart fa-4x"></i>
+				<h3 class="feature-title">Guaranteed to work.</h3>
+				<p class="feature-p">	Learn more about dogs or your money back.</p>
+			</div>
+		</div>
+	</section>
+
+		<div class="icon-bar">
+			<a href="https://twitter.com/DogFactz2021" class="twitter"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com/dogfactz2021/" class="instagram"><i class="fa fa-instagram"></i></a>
+			<a href="mailto:dogfactz2021@gmail.com" class="email"><i class="fa fa-envelope-square"></i></a>
+		</div>
+
+	<!--Video-->
+	<section id='video'>
+
+		<div  class="col-lg-12"> 
+			
+
+		</div>
+
+
+	</section>
+
+	<!-- Footer -->
+
+	<footer id="footer">
+        <p> Intereseted in adopting a best friend? Check out our local partners in <a href="https://www.eccha.org/">Eau Claire</a> and
+            <a href="https://dunncountyhumanesociety.org/">Menomonie</a>!</p>
+		<a href="https://twitter.com/DogFactz2021"><i class="social-icon fab fa-twitter"></i></a>
+		<a href="https://www.instagram.com/dogfactz2021/"><i class="social-icon fab fa-instagram"></i></a>
+		<a href="mailto:dogfactz2021@gmail.com"><i class="social-icon fas fa-envelope-square"></i></a>
+		<p >© Copyright 2021 Team 2 Dog <a onclick="moreFacts();" href="#footer">Factz</a></p>
+	</footer>
+<script src="js/factz.js"></script>
+<script src="js/halloween.js"></script>
+
+
+</body></html>

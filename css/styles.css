@@ -1,0 +1,288 @@
+body {
+	font-family: 'Montserrat, sans-serif';
+	cursor: url('../images/bone.png'), auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat-Bold";
+}
+
+#title {
+	background-color: #ff4c68;
+	color: white;
+	font-size: 3rem;
+}
+
+.container-fluid {
+	padding: 3% 15% 5%;
+}
+
+#quiz-container {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+/* Headings */
+
+.big-heading {
+	font-family: 'Montserrat-Black';
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.5;
+}
+
+.section-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+#quiz-heading {
+	height: 5%;
+}
+
+/*Nav Bar*/
+
+#appName {
+	font-size: 1.5rem;
+	color: #ff4c68;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.navbar {
+	padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-family: "Montserrat-Light";
+	font-size: 1.2rem;
+}
+
+/* Social Media Icon Bar */
+
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.icon-bar a {
+	display: block;
+	text-align: center;
+	border-radius: 0px 20px 20px 0px;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+	opacity: 70%;
+}
+
+.icon-bar a:hover {
+	background-color: #000;
+	color: white;
+  }
+
+  .twitter {
+	background: #55ACEE;
+	color: white;
+  }
+
+  .instagram {
+	  background: #8a3ab9;
+	  color: white;
+  }
+
+  .email {
+	  background: darkblue;
+	  color: white;
+  }
+
+/* Theme Buttons */
+
+.btn {
+	margin: 3% 3% .25% 0;
+	padding-top: 10%;
+	padding-bottom: 3%;
+}
+
+#tooScary {
+
+	display: none;
+}
+
+/* Title Image */
+
+.title-image {
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #fff;
+	right: 30%;
+	width: 60%;
+	}
+
+#title-fact{
+	padding-top: 5%;
+}
+
+#spookyFact{
+	padding-top: 5%;
+	display: none;
+}
+
+#title-btn {
+	color: #000;
+	font-size: 50%
+}
+
+#title-btn2 {
+	
+	font-size: 50%
+}
+
+#title-btn2 a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+/* Features Section */
+
+#features {
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+}
+
+.feature-box {
+	text-align: center;
+}
+
+.feature-p {
+	color: #8f8f8f;
+}
+
+.feature-title {
+	font-size: 1.5rem;
+}
+
+.fas {
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.fas:hover {
+	color: #ff4c68;
+}
+
+.fa-bone {
+	color: #fff;
+	margin-left: 10%;
+}
+
+.fa-bone:hover {
+	color: 	#D3D3D3;
+}
+
+.fa-bone p {
+	font-size: 1.5rem;
+}
+
+
+#vid1, #vid2 {
+	
+	width: 100%;
+	border: 5px solid #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+#wellness {
+	
+	border: 5px solid #fff;
+	text-align: left;
+	font-size: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding: .5%;
+}
+ 
+#wellness h3 {
+	font-weight: bold;
+}
+
+
+
+/* Footer */
+
+#footer {
+	background-color: #ff4c68;
+	padding: 3% 7%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+footer p {
+	color: #fff;
+}
+
+.social-icon {
+	margin: 10px 10px;
+	color: #000;
+}
+
+.social-icon:hover {
+	color: #fff;
+}
+
+@media (max-width: 1028px) {
+	.container-fluid {
+		padding: 3% 15% 7%;
+	}
+
+	#title {
+		text-align: center;
+	}
+	
+	#title-fact {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+
+	#hide-nav {
+		visibility: hidden;
+	}
+	
+}
+
+
+
+
+
+
